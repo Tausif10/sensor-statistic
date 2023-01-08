@@ -1,0 +1,35 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CsvFileReaderTest, org.scalatest.tools.Framework$$anon$1@66b79775, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(transformer.MeasurementTransformerTest, org.scalatest.tools.Framework$$anon$1@66b79775, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(StatisticsCalculatorTest, org.scalatest.tools.Framework$$anon$1@66b79775, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DashboardGeneratorTest, org.scalatest.tools.Framework$$anon$1@66b79775, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCsvFileReaderTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCsvFileReader[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return map of file name and lines other than header in file  when directory contains the csv files[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error message when path is file path[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error message when directory path is invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMeasurementTransformerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMeasurementTransformer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should transform string to sensor measurement when list contains only 2 entries separated by comma[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return empty list of transformed sensor measurement when list contains more than 2 entries separated by comma on each line[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return empty humidity for sensor measurement when list contains 2 entries separated by comma on each line but number is separated by space[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return empty humidity for sensor measurement when list contains 2 entries separated by comma on each line but humidity value is not a number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStatisticsCalculatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStatisticCalculator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should calculate min, max and avg humidity when humidity value is a number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should calculate min, max and avg humidity when humidity value is not a number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should calculate min, max and avg humidity when records are in different file and some of humidity value is not a number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should calculate min, max and avg humidity when records are in same file and humidity value is a number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDashboardGeneratorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDashboardGenerator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return sensor statistic[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return exception when fail to read input file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 425 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 13[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CsvFileReaderTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformer.MeasurementTransformerTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DashboardGeneratorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StatisticsCalculatorTest[0m

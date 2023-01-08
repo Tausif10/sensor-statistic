@@ -1,0 +1,9 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\TSayyad\PDF APIs\sensor-status-calculator\src\main\scala\Application.scala:15:30: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Failure(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m  dashboardGenerator.generate(directoryPath) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\TSayyad\PDF APIs\sensor-status-calculator\src\main\scala\StatisticsCalculator.scala:20:7: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: List(_, _), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m      sensorMeasurements match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
